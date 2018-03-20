@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+#game-title{
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+#canvas{
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+#game-inputs{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+#word{
+    width: 70%;
+    height: 20%;
+    margin: 20px;
+    padding: 10px;
+}
+#keyboard{
+    float: left;
+    width: 70%;
+    height: 70%;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.key{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 2px;
+    margin: 10px;
+    background-color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: dimgrey;
+    float: left;
+    cursor:pointer;
+}
+.key:active{
+    background-color: #5b5959;
+}
+.letter{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 2px;
+    margin: 10px;
+    background-color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: darkgrey;
+    float: left;
+}
+#result{
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 5em;
+    z-index:2;
+    color: white;
+    display: none;
+}
